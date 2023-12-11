@@ -41,7 +41,6 @@
     }
 }
 
-
 /* ======================== medium device css start ================== */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -364,7 +363,6 @@
 
 }
 
-
 /* ======================== small device css start ================== */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -660,7 +658,7 @@
 
 /* ======================== extra small device css start ================== */
 
-@media (max-width: 575.98px) {
+@media (min-width: 460px) and (max-width: 575.98px) {
 
     /* =========== navbar part start ============ */
 
@@ -872,6 +870,309 @@
 
     #gallery .gallery-all {
         margin-bottom: 24px;
+    }
+
+    /* ===================== footer part start ==================== */
+
+    #footer .footer-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #footer .footer-middle-text h6 {
+        color: #c7b299;
+    }
+
+    #footer .footer-middle-text p {
+        color: #ffffff;
+    }
+
+    #footer .footer-right-text a:hover {
+        color: #00bff3;
+    }
+
+    #footer .dribbble-one img:first-child {
+        margin-bottom: 10px;
+    }
+
+    #footer .dribbble-one img:last-child {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    #footer .dribbble-two img:last-child {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    #copyright {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        background: #111111;
+    }
+
+    #copyright .copy-left {
+        text-align: center;
+    }
+
+    #copyright .copy-right {
+        text-align: center;
+    }
+
+    #copyright .copy-left ul li a {
+        color: #c7b299;
+    }
+
+    #copyright .copy-right ul li a {
+        color: #c7b299;
+    }
+
+    #copyright .copy-left ul li span {
+        color: #959595;
+        font-weight: 700;
+    }
+}
+
+/* ======================== extra extra small device css start ================== */
+
+@media (min-width: 330px) and (max-width: 459.98px) {
+
+    /* =========== navbar part start ============ */
+
+    .main-menu {
+        background: #736357;
+    }
+
+    .main-menu .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .main-menu .navbar-brand img {
+        padding: 10px 0;
+    }
+
+    .main-menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main-menu .navbar-toggler i {
+        color: #fff;
+    }
+
+    .main-menu #navbarSupportedContent {
+        text-align: center;
+        background: #736357;
+    }
+
+    .main-menu .nav-item a {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    /* ================ banner part start =============== */
+
+    #banner {
+        padding-top: 180px;
+        padding-bottom: 100px;
+    }
+
+    #banner .banner-overlay h3 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    #banner .banner-overlay h2 {
+        font-size: 45px;
+    }
+
+    #banner .banner-overlay p {
+        padding: 3px 10px;
+        margin-bottom: 45px;
+    }
+
+    #banner .banner-overlay a {
+        padding: 15px 25px;
+    }
+
+    #banner .banner-overlay a:hover {
+        background: #998675;
+    }
+
+
+    /* ==================== about part start ================== */
+
+    #about {
+        padding-top: 45px;
+        padding-bottom: 70px;
+        border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+    }
+
+    #about .about-icon i {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #about .about-content:hover .about-icon i {
+        color: #555555;
+    }
+
+    .about-text h3 {
+        font-size: 24px;
+        color: #555555;
+        padding-bottom: 15px;
+    }
+
+    #about .about-content:hover .about-text h3 {
+        color: #555555;
+    }
+
+    .about-text p::after {
+        display: none;
+    }
+
+    #about .about-text {
+        padding-bottom: 15px;
+    }
+
+
+    /* ====================== project part start =============== */
+
+    #project {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    #project .project-button button {
+        padding: 5px 5px;
+        margin: 5px 2px;
+        background: #998675;
+        border: 1px solid #998675;
+        color: #ffffff;
+
+    }
+
+    #project .project-item .img-text h2:hover {
+        color: #c7b299;
+    }
+
+    #project .project-item:hover .img-text h2 {
+        color: #c7b299;
+    }
+
+    #project .project-item:hover .img-text h5 {
+        color: #fff;
+    }
+
+    #project .project-item .img-text h5 {
+        color: #fff;
+    }
+
+    #project .project-img::after {
+        opacity: 1;
+    }
+
+    #project .img-icon {
+        opacity: 1;
+    }
+
+    #project .project-item .img-text {
+        background: #362f2d;
+    }
+
+
+    /* ===================== video part start ==================== */
+
+    #video {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+
+    #video .video-icon i {
+        font-size: 35px;
+        height: 70px;
+        width: 70px;
+        line-height: 71px;
+        margin-bottom: 20px;
+    }
+
+    #video .video-text p {
+        padding: 0 0;
+    }
+
+    /* ===================== counter part start ==================== */
+
+    #count {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #count .counter-item h2 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    #count .counter-item h5{
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    #count .col{
+        margin: 5px;
+        padding: 0;
+    }
+
+    /* ===================== gallery part start ==================== */
+
+    #gallery .gallery-head {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    #gallery {
+        padding-bottom: 40px;
+    }
+
+    #gallery .gal-date {
+        top: -180px;
+    }
+
+    #gallery .gallery-all:hover .gal-item::after {
+        display: none;
+    }
+
+    #gallery .gallery-all .gal-overlay {
+        border: 1px solid #362f2d;
+        border-top: 0;
+    }
+
+    #gallery .gallery-all .gal-date h4 {
+        background: #c7b299;
+    }
+
+    #gallery .gallery-all .gal-date h5 {
+        background: #a48d72;
+    }
+
+    #gallery .gallery-all .gal-text {
+        background: #362f2d;
+    }
+
+    #gallery .gallery-all .gal-text h2 {
+        color: #c7b299;
+    }
+
+    #gallery .gallery-all .gal-text p {
+        color: #ffffff;
+    }
+
+    #gallery .gallery-all {
+        margin-bottom: 24px;
+    }
+
+    #gallery .gal-text {
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-bottom: 20px;
     }
 
     /* ===================== footer part start ==================== */
